@@ -1,0 +1,16 @@
+[INFO] - 2021-03-12 15:52:30,911 - root - : data in /home/chawn1272/1/tutorial/example_logging.py:29
+[INFO] - 2021-03-12 15:52:46,386 - root - : data in /home/chawn1272/1/tutorial/example_logging.py:29
+[INFO] - 2021-03-12 15:57:31,093 - root - : data in /home/chawn1272/1/tutorial/example_logging.py:32
+[INFO] - 2021-03-12 16:00:55,772 - root - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32
+[INFO] - 2021-03-12 16:01:25,895 - root - : example logging in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[INFO] - 2021-03-12 16:05:42,246 - root - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32
+[INFO] - 2021-03-12 16:06:15,008 - root - : example logging in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[INFO] - 2021-03-12 16:06:32,687 - root - : example logging in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[INFO] - 2021-03-12 16:06:34,052 - root - : example logging in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[INFO] - 2021-03-12 16:07:49,164 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32
+[INFO] - 2021-03-12 16:10:08,319 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32
+[INFO] - 2021-03-12 16:11:55,334 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:33
+[INFO] - 2021-03-12 16:13:40,472 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:33
+[INFO] - 2021-03-12 16:14:31,880 - __main__ - : setup logging module in ./mlogging.py:34
+[INFO] - 2021-03-12 16:14:51,803 - __main__ - : setup logging module in ./mlogging.py:34
+[INFO] - 2021-03-12 16:19:11,654 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32

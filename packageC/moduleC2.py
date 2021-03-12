@@ -1,7 +1,7 @@
 import os
 
 def functionC2(input_txt):
-    import_dir = os.path.relpath(__file__, start=os.curdir)
+    import_dir = os.path.relpath(os.path.abspath(__file__), start=os.curdir)
     comment = input_txt + import_dir + " functionC2"
     return comment
 

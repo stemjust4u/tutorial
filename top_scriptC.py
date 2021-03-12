@@ -1,3 +1,5 @@
+import os 
+
 comment = "executing "
 
 # PackageC has a __init__.py with the following
@@ -21,3 +23,9 @@ print(moduleC2.functionC2(comment))
 # Import a specific module as different name
 import packageC.moduleC3 as mm3
 print(mm3.functionC3(comment))
+
+from mlogging import setup_logging
+
+main_logger = setup_logging(os.path.dirname(os.path.abspath(__file__)))
+main_logger.info("example logging")
+

@@ -4,7 +4,7 @@ print("packageA/B modules. ")
 print(sys.path[0])
 
 print("\nBut you can append more locations, further up the dir tree, with sys.path.append('/folder/location/')")
-project_path = os.path.dirname(os.path.dirname(__file__))
+project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_path)
 print(sys.path[-1:])  # see the last path added from sys.path.append
 
