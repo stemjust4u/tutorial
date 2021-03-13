@@ -24,8 +24,15 @@ print(moduleC2.functionC2(comment))
 import packageC.moduleC3 as mm3
 print(mm3.functionC3(comment))
 
+'''
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL  (can use this to turn logging off essentially)
+'''
 from mlogging import setup_logging
 
 main_logger = setup_logging(os.path.dirname(os.path.abspath(__file__)))
-main_logger.info("example logging")
-
+main_logger.info(comment)
+main_logger.error(f'{comment} raised an error')

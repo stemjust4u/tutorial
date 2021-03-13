@@ -14,3 +14,137 @@
 [INFO] - 2021-03-12 16:14:31,880 - __main__ - : setup logging module in ./mlogging.py:34
 [INFO] - 2021-03-12 16:14:51,803 - __main__ - : setup logging module in ./mlogging.py:34
 [INFO] - 2021-03-12 16:19:11,654 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32
+[INFO] - 2021-03-12 16:27:57,656 - mlogging - : executing  in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[INFO] - 2021-03-12 16:32:22,929 - mlogging - : executing  in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[ERROR] - 2021-03-12 16:32:22,929 - mlogging - : executing  raised an error in /home/chawn1272/1/tutorial/top_scriptC.py:31
+[INFO] - 2021-03-12 16:33:51,892 - mlogging - : executing  in /home/chawn1272/1/tutorial/top_scriptC.py:30
+[ERROR] - 2021-03-12 16:33:51,893 - mlogging - : executing  raised an error in /home/chawn1272/1/tutorial/top_scriptC.py:31
+[ERROR] - 2021-03-12 16:33:51,893 - mlogging - : exception occurred in /home/chawn1272/1/tutorial/top_scriptC.py:36
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/top_scriptC.py", line 34, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:00:04,865 - __main__ - : setup logging module in mlogging.py:32
+[INFO] - 2021-03-12 17:00:23,402 - mlogging - : executing  in top_scriptC.py:37
+[ERROR] - 2021-03-12 17:00:23,403 - mlogging - : executing  raised an error in top_scriptC.py:38
+[ERROR] - 2021-03-12 17:00:23,403 - mlogging - : exception occurred in top_scriptC.py:43
+Traceback (most recent call last):
+  File "top_scriptC.py", line 41, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:01:14,144 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mlogging.py:32
+[ERROR] - 2021-03-12 17:01:14,144 - __main__ - : exception occurred in /home/chawn1272/1/tutorial/mlogging.py:37
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mlogging.py", line 35, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:01:27,235 - mlogging - : executing  in top_scriptC.py:37
+[ERROR] - 2021-03-12 17:01:27,236 - mlogging - : executing  raised an error in top_scriptC.py:38
+[INFO] - 2021-03-12 17:20:23,326 - __main__ - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:33
+[ERROR] - 2021-03-12 17:20:23,326 - __main__ - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:38
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 36, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:23:48,292 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:35
+[ERROR] - 2021-03-12 17:23:48,292 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:40
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 38, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:25:58,706 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:36
+[ERROR] - 2021-03-12 17:25:58,707 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:41
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 39, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:32:01,020 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[ERROR] - 2021-03-12 17:32:01,020 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:44
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 42, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:32:25,527 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[INFO] - 2021-03-12 17:32:25,527 - root - : marking journal in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:32:25,527 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:45
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 43, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:35:21,002 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[INFO] - 2021-03-12 17:35:21,002 - root - : marking journal in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:35:21,002 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:36:07,250 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[INFO] - 2021-03-12 17:36:07,250 - root - : marking journal in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:36:07,250 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:38:11,606 - root - : setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:38:11,607 - root - : exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:47
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 45, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:38:52,187 - root - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:38:52,188 - root - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:47
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 45, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:39:41,632 - root - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[INFO] - 2021-03-12 17:39:41,632 - root - : marking journal in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:39:41,633 - root - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:40:41,821 - root - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[INFO] - 2021-03-12 17:40:41,822 - root - : New marking journal in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:40:41,822 - root - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:41:04,384 - __main__ - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[INFO] - 2021-03-12 17:41:04,384 - __main__ - : New marking journal in /home/chawn1272/1/tutorial/mjlogging.py:40
+[ERROR] - 2021-03-12 17:41:04,384 - __main__ - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:42:45,164 - __main__ - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[ERROR] - 2021-03-12 17:42:45,164 - __main__ - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:43:01,143 - __main__ - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:39
+[ERROR] - 2021-03-12 17:43:01,143 - __main__ - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:46
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 44, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:48:35,022 - __main__ - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:45
+[ERROR] - 2021-03-12 17:48:35,022 - __main__ - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:52
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 50, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:49:02,088 - __main__ - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:45
+[ERROR] - 2021-03-12 17:49:02,088 - __main__ - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:52
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 50, in <module>
+    print(mylist[4])
+IndexError: list index out of range
+[INFO] - 2021-03-12 17:50:39,178 - __main__ - : New setup logging module in /home/chawn1272/1/tutorial/mjlogging.py:45
+[ERROR] - 2021-03-12 17:50:39,178 - __main__ - : New exception occurred in /home/chawn1272/1/tutorial/mjlogging.py:52
+Traceback (most recent call last):
+  File "/home/chawn1272/1/tutorial/mjlogging.py", line 50, in <module>
+    print(mylist[4])
+IndexError: list index out of range
