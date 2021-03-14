@@ -43,12 +43,12 @@ def setup_logging(log_dir):
 
 if __name__ == "__main__":
     main_logger, journal_logger = setup_logging(os.path.dirname(os.path.abspath(__file__)))   
-    main_logger.info("New setup logging module")
+    main_logger.info("Testing logger output")
     journal_logger.info(__file__ + ' Marking journal')
 
     mylist = [1, 2]
     try:
         print(mylist[4])
     except Exception as e:
-        main_logger.error("New exception occurred", exc_info=True)
-        journal_logger.error("New exception occurred", exc_info=True)
+        main_logger.error("exception error", exc_info=True)
+        journal_logger.error("exception error", exc_info=True)

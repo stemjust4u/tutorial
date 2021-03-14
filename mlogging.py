@@ -34,4 +34,4 @@ if __name__ == "__main__":
     try:
         print(mylist[4])
     except Exception as e:
-        main_logger.error("exception occurred", exc_info=True)
+        main_logger.error("exception error", exc_info=True)
