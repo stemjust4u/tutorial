@@ -17,6 +17,9 @@ print("\n" + __name__ + "is the __name__ of file being executed")
 print(moduleA.file_name() + " is the __name__ of the imported file")
 print("This is why code inside file's __name__ == '__main__' is only")
 print("executed on the file being executed and not when imported.")
+#Modules are often designed with the capability to run as a standalone script
+#  for purposes of testing the functionality that is contained within the module.
+#  This is referred to as unit testing.
 
 print("\nTo see all the functions, properties, methods available in moduleA print out dir()")
 print(dir(moduleA))

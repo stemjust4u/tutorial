@@ -18,8 +18,8 @@ print(packageC.moduleC2.functionC2(comment))
 print(packageC.moduleC3.functionC3(comment))
 
 # Import a specific module
-from packageC import moduleC2
-print(moduleC2.functionC2(comment))
+from packageC import moduleC2 as mm2
+print(mm2.functionC2(comment))
 # Import a specific module as different name
 import packageC.moduleC3 as mm3
 print(mm3.functionC3(comment))

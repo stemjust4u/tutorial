@@ -3,12 +3,14 @@
 # When you import a module the functions/classes are now available for executing in your script. 
 
 import moduleB                  # can be a package or module
-from moduleB2 import functionB2 # can import a specific function/class
+#from moduleB2 import functionB2 # can import a specific function/class
+from moduleB2 import *
 import sys
 
 comment = "executing "
 print(moduleB.functionB(comment))
-print(functionB2(comment))
+print(functionB2(comment))  # can control if function B2/B3 are available by adding/removing
+print(functionB3(comment))  # them from the __all__ list in moduleB2/__init__.py
 
 print("\n" + __name__ + "is the __name__ of file being executed")
 print(moduleB.file_name() + " is the __name__ of the imported file")

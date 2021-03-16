@@ -14,6 +14,8 @@ print(packageA.moduleA.file_name() + " is the __name__ of the imported file")
 print("This is why code inside file's __name__ == '__main__' is only")
 print("executed on the file being executed and not when imported.")
 
+# You can list the contents of a namespace with dir():
+# as you import more objects and assign variables more names are added
 print("\nTo see all the functions, properties, methods available in packageA print out dir()")
 dir_list = dir(packageA)
 dir_list.reverse()

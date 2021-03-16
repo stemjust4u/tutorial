@@ -13,6 +13,7 @@
 # Starting with Python 3.3 all folders are treated as packages. (Empty __init__.py is not necessary but can add convenience)
 # When you import a folder that has a __init__.py file Python will run the code in it. 
 import packageB  # importing a package is similar to importing a package.__init__.py file (if it has one)
+# Importing a package by itself, that has not init.py, would not be useful
 import sys
 
 # Notice the difference from top_scriptA.py. We don't need to include the module since 
@@ -26,6 +27,8 @@ from .moduleB2 import *
 comment = "executing "
 print(packageB.functionB(comment))  # Since packageB has a __init__.py with module imports inside it
 print(packageB.functionB2(comment)) # the module is not required here. Can call package.function
+print(packageB.functionB3(comment)) # the module is not required here. Can call package.function
+
 
 print("\n" + __name__ + "is the __name__ of file being executed")
 print(packageB.file_name() + " is the __name__ of the imported file")
