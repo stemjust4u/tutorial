@@ -2,14 +2,23 @@ import os
 from datetime import date 
 
 def functionB(input_txt):
+    """Simple function to output the path of the function"""
     import_dir = os.path.relpath(os.path.abspath(__file__), start=os.curdir)
     comment = input_txt + import_dir + " functionB"
     return comment
 
 def file_name():
+    """simple function to output the name of the module"""
     return __name__
 
+#print(functionB.__doc__)
+#help(functionB)
+
 class BankAccount:
+    """
+    This is the help for the class
+    """
+
     # DATA OR ATTRIBUTES
     # Can make these 'private' attributes with '_' to indicate they shouldn't be modified unless using a method
     def __init__(self, initial_amount=0): # self is used to refer to the specific instance of the object

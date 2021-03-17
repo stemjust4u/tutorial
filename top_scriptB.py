@@ -25,9 +25,9 @@ from .moduleB2 import *
 '''
 # We can call package.function
 comment = "executing "
-print(packageB.functionB(comment))  # Since packageB has a __init__.py with module imports inside it
-print(packageB.functionB2(comment)) # the module is not required here. Can call package.function
-print(packageB.functionB3(comment)) # the module is not required here. Can call package.function
+print(packageB.moduleB.functionB(comment))  # Since packageB has a __init__.py with module imports inside it
+#print(packageB.functionB2(comment)) # the module is not required here. Can call package.function
+#print(packageB.functionB3(comment)) # the module is not required here. Can call package.function
 
 
 print("\n" + __name__ + "is the __name__ of file being executed")
